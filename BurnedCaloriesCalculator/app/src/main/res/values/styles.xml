@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textViewStyle">@style/Widget</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:textColorPrimary">@color/light</item>
+        <item name="android:textColorSecondary">@color/light</item>
+    </style>
+
+    <style name="Widget">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextView.Label" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

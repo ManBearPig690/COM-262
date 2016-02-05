@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Invoice</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="discount_label">Discount Percent:</string>
+    <string name="subtotal_label">Subtotal:</string>
+    <string name="discount_amount_label">Discount Amount:</string>
+    <string name="total_label">Total:</string>
+</resources>

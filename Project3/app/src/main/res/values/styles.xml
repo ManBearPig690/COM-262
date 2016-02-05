@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Two custom themes -->    
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- API 1-10 theme customizations go here -->
+        <item name="android:spinnerItemStyle">@style/Widget.TextView.SpinnerItem</item>
+        <item name="android:dropDownItemStyle">@style/Widget.DropDownItem</item>
+    </style>
+    
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- Theme customizations NOT specific to a particular API -->
+        <item name="android:background">@color/myWindowBackground</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    
+    <!-- Five custom styles -->
+    <style name="TextView">
+        <item name="android:textSize">24sp</item>
+    </style>
+    
+    <style name="EditText" parent="@style/TextView" />
+    
+    <style name="Button" parent="@style/TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextView.Label">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="TextView.Label.Indent">
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="PaddingWidget">
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="RadioGroup.TextAppearance"  parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget.TextView.SpinnerItem" parent="Widget.TextView.SpinnerItem">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Widget.DropDownItem" parent="Widget.DropDownItem">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

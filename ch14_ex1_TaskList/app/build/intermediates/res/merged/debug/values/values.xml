@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/James%20Fleuret/StudioProjects/ch14_ex1_TaskList/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Task List</string>
+    <string name="task_name">Name</string>
+    <string name="task_notes">Notes</string>
+    <string name="text">Text</string>
+    <!-- From: file:/C:/Users/James%20Fleuret/StudioProjects/ch14_ex1_TaskList/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light">
+    </style>
+</resources>

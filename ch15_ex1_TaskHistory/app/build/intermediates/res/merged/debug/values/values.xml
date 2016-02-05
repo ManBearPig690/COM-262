@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/James%20Fleuret/StudioProjects/ch15_ex1_TaskHistory/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Task History</string>
+    <string name="date">Date completed: Fri, April 12 2013</string>
+    <string name="name">Take care in for oil check</string>
+    <string name="notes">No notes</string>
+    <!-- From: file:/C:/Users/James%20Fleuret/StudioProjects/ch15_ex1_TaskHistory/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>
